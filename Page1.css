@@ -1,0 +1,160 @@
+﻿
+.header-menu ul {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+    .header-menu ul li a {
+        transition: all 0.3s ease;
+        font-size: 16px;
+        margin-right: 6px;
+        padding-right: 12px 6px;
+    }
+
+    .header-menu ul li {
+        padding: 17px 17px;
+    }
+
+        .header-menu ul li:hover {
+            background-color: white;
+        }
+
+    .header-menu ul li {
+        color: white;
+    }
+
+a {
+    text-decoration: none;
+}
+
+#header-menu {
+    max-width: 980px;
+    display: table-cell;
+    text-align: center;
+}
+
+#topmenu {
+    max-width: 1185px;
+    display: table;
+    align-items: center;
+    justify-content: space-between;
+    margin: auto;
+    height: 70px;
+    background-color: grey;
+}
+
+#header-logo {
+    text-align: left;
+    cursor: crosshair;
+    margin: auto;
+    vertical-align: middle;
+    padding: 0px 0px 0px 20px;
+    width: 15%;
+    display: table-cell;
+    object-fit: cover;
+    max-width: 173px;
+    max-height: 64px;
+}
+
+#header-menu {
+    max-width: 980px;
+    display: table-cell;
+    text-align: center;
+}
+
+
+
+#Header {
+    width: 100%;
+    background-color: grey;
+    height: fit-content;
+}
+
+#menu {
+    justify-content: space-between;
+    max-height: 150px;
+    display: flex;
+    list-style: none;
+    margin-bottom: 0;
+    padding: 15px;
+    font-size: 15px;
+}
+
+#logo-shopdunk {
+    width: 100%;
+    max-width: 176px;
+    max-height: 64px;
+    object-fit: cover;
+}
+
+#icon-flags {
+    align-items: center;
+    color: aliceblue;
+    width: 15%;
+    display: table-cell;
+    object-fit: cover;
+}
+.product-top p {
+    margin-bottom: 30px;
+    font-family: Arial;
+    margin: 0 12px;
+    font-size: 12px;
+    display: inline;
+}
+.container{
+    display:flex;
+    margin:auto;
+}
+.anhIphone {
+    display:table;
+}
+.product-content{
+    display:flex;
+    margin:auto;
+    justify-content:center;
+}
+/*=====*/
+#product-content-left {
+    width: 50%;
+    height: 50%;
+    float: left;
+}
+
+#product-content-right {
+    width: 50%;
+    height: 50%;
+    float: right;
+}
+
+#product-content-right-price {
+    border-top-width: thin;
+}
+
+#product-content-left-big-img {
+    width: 80%;
+    height: 50%;
+    padding-right: 20px;
+}
+
+    #product-content-left-big-img img {
+        width: 100%;
+        cursor: crosshair;
+    }
+
+#list-region {
+    float: right;
+}
+
+#memory {
+    height: 25%;
+    width: 10%;
+}
+
+#product-related-title {
+    float: right;
+}
+
+#list-region {
+    float: initial;
+}
+
